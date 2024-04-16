@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: "Space Grotesk", sans-serif;
+    overflow-x: hidden;
+}
+
+/* Beginning of Nav Section */
+.logo{
+    padding: 5px;
+    width: 250px;
+}
+
+.container{
+    background-color: rgb(209, 255, 240);
+    display: flex;
+    padding: 10px;
+    width: 100vw;
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-top: 10px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+/* End of Nav Section */
+
+/* Beginnng of Hero Section */
+
+.hero-container{
+background-color: rgb(1, 1, 44);
+color: white;
+background-image: url(./img/ggg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100vw;
+height: 90vh;
+}
+
+.hero-heading{
+    font-size: 80px;
+    padding-top: 3rem;
+    margin-left: 7rem;
+}
+
+.hero-paragraph{
+    text-align:left;
+    font-size: 23px;
+    margin-left: 7rem;
+    max-width: 53rem;
+    margin-top: 1.5rem;
+}
+
+.hero-img{
+    position: absolute;
+    margin-left: 50rem;
+    margin-top: -27rem;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  50% {transform: rotate(-40deg);}
+}
+
+.btn{
+color: white;
+background-color: red;
+padding: 15px 40px;
+border: none;
+border-radius: 5px;
+margin-left: 7rem;
+margin-top: 50px;
+font-family: "Ubuntu", sans-serif;
+position: relative;
+}
+
+/* End of Hero Section */
+
+/* Beginnng of Service section */
+
+.service-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+
+.main-service-contaner{
+background-color: rgb(0, 0, 107);
+padding: 1rem;
+height: 100vh;
+}
+
+.service-heading{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(152, 253, 220);
+    margin-bottom: 2rem;
+}
+.unit-container{
+    background-color: rgb(205, 255, 238);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+draw{
+width: 3rem;
+}
+
+/* End of service section */
+
+/* Begining of Gallery Section */
+.gallery-container{
+    width: 100vw;
+    background-color: rgb(205, 255, 238);
+    padding: 1rem;
+}
+
+.galleryimg{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    box-shadow: 0px 5px 10px gray;
+    
+}
+/* End of Gallery Section */
+
+
+/* Start of Footer */
+.footer {
+    background-color: rgb(0, 0, 107);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    text-align: center;
+    height: 20vh;
+    width: 100vw;
+  }
+
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footer i {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+
+  
